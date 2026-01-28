@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu Carrito | MiTienda</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">🛒 MiTienda</div>
+            <ul class="menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="detalle.html">Tendencias</a></li>
+                <li><a href="carrito.html">Carrito</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h1 class="section-title">Tu Carrito de Compras</h1>
+
+        <div class="cart-wrapper">
+            <div class="cart-table-container">
+                <table class="cart-table">
+                    <thead>
+                        <tr>
+                            <th>Producto</th>
+                            <th>Precio</th>
+                            <th>Cantidad</th>
+                            <th>Subtotal</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Producto Ejemplo 1</td>
+                            <td>$25.00</td>
+                            <td>1</td>
+                            <td>$25.00</td>
+                        </tr>
+                        <tr>
+                            <td>Producto Ejemplo 2</td>
+                            <td>$40.00</td>
+                            <td>2</td>
+                            <td>$80.00</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="cart-summary">
+                <h3>Resumen del pedido</h3>
+                <div class="summary-item">
+                    <span>Subtotal:</span>
+                    <span>$105.00</span>
+                </div>
+                <div class="summary-item">
+                    <span>Envío:</span>
+                    <span>Gratis</span>
+                </div>
+                <hr>
+                <div class="summary-item total">
+                    <span>Total:</span>
+                    <span>$105.00</span>
+                </div>
+                <button class="btn-checkout">Proceder al Pago</button>
+                <a href="productos.html" class="continue-link">Seguir comprando</a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Proyecto Universitario - HTML y CSS</p>
+    </footer>
+
+</body>
+</html>
